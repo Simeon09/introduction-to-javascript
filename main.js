@@ -20,6 +20,20 @@ var address =prompt('Enter your home address bossteeh');
 var phoneNumber =prompt('Enter your phoneNumber bossteeh');
 document.getElementById('demo').innerHTML= question;
 document.getElementById('age').innerHTML=age;
-console.log
+
 document.getElementById('address').innerHTML=address;
 document.getElementById('phoneNumber').innerHTML= phoneNumber;
+
+let myname = "simeon"
+alert ('welcome to ATC' + question)
+// write a program to calculate the number 
+// of seconds in a week and display ur answer on d html webpage.
+var seconds= 60;
+var minute=60;
+var p =24;
+var d =7;
+var hour= minute * seconds;
+var day = hour * p;
+var week = day *d;
+console.log(week)
+document.getElementById('week').innerHTML= week;
