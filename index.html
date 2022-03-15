@@ -5,19 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>javascript</title>
-    <link rel="stylesheet" href="/main.js">
+    <link rel="stylesheet" href="main.js">
     <link rel="stylesheet" href="sass/styles.css">
 </head>
 <body>
     <div class="secs">
 
-        <h1>your name is : <span id="demo"></span></h1> 
+        <h1>Your name is : <span id="demo"></span></h1> 
         
-        <h1 > your age is:<span id="age"></span></h1>
-        <h1>your address:<span id="address""></span> </h1>
-        <h1> your phone number is:<span id="phoneNumber"></span> </h1>
+        <h1 > Your age is:<span id="age"></span></h1>
+        <h1>Your address:<span id="address""></span> </h1>
+        <h1> Your phone number is:<span id="phoneNumber"></span> </h1>
+        <h1>The number of seconds in a minute is : <span id="seconds"></span></h1>
+        <h1>The number of minute in an hour : <span id="minute"></span></h1>
+        <h1>The number of hour in a day : <span id="hour"></span></h1>
+        <h1>The number of day in a week : <span id="day"></span></h1>
         <h1> The total number of seconds in a week is:<span id="week"></span> </h1>
+
+        <div id="show">
+            <h1> hour = 60*60 =3600sec</h1>
+            <h1> day = 24 * 3600 =86400secs</h1>
+            <h1>week= 7 * 86400 =604800secs</h1>
+            
+        </div>
+        <button type="button" onclick="document.getElementById('show').style.display='block'">Click Me to show workings</button>
     </div>
-        <script src="/main.js"></script>
+
+        <script src="main.js"></script>
     </body>
 </html>
